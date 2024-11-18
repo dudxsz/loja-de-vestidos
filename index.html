@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+        <nav>
+            <ul>
+                <li><a href="#vestidos">Vestidos</a></li>
+                <li><a href="#saias">Saias</a></li>
+                <li><a href="#shorts">Shorts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="vestidos" class="gallery">
+            <h2>Vestidos</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="vestido floral.png" alt="Vestido 1">
+                    <p>Vestido Floral - R$120</p>
+                    <button onclick="addToCart('Vestido Floral - R$120')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="item">
+                    <img src="vestido preto.png" alt="Vestido 2">
+                    <p>Vestido Preto - R$150</p>
+                    <button onclick="addToCart('Vestido Preto - R$150')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+        <section id="saias" class="gallery">
+            <h2>Saias</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="saia jeans.png" alt="Saia 1">
+                    <p>Saia Jeans - R$80</p>
+                    <button onclick="addToCart('Saia Jeans - R$80')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="item">
+                    <img src="saia plissada.png" alt="Saia 2">
+                    <p>Saia Plissada - R$90</p>
+                    <button onclick="addToCart('Saia Plissada - R$90')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+        <section id="shorts" class="gallery">
+            <h2>Shorts</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="shorts branco.png" alt="Short 1">
+                    <p>Short Branco - R$70</p>
+                    <button onclick="addToCart('Short Branco - R$70')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="item">
+                    <img src="shorts preto.png" alt="Short 2">
+                    <p>Short Preto - R$75</p>
+                    <button onclick="addToCart('Short Preto - R$75')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja de Roupas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
